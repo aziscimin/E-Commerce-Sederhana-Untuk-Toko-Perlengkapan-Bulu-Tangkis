@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Bulu Tangkis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="categories">
+                <li><button onclick="filterProducts('all')">Semua</button></li>
+                <li><button onclick="filterProducts('raket')">Raket</button></li>
+                <li><button onclick="filterProducts('shuttlecock')">Shuttlecock</button></li>
+                <li><button onclick="filterProducts('sepatu')">Sepatu</button></li>
+                <li><button onclick="filterProducts('tas')">Tas</button></li>
+                <li><button onclick="filterProducts('aksesoris')">Aksesoris</button></li>
+            </ul>
+            <button class="cart-button" onclick="showCart()">🛒 Keranjang (<span id="cart-count">0</span>)</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="product-list"></section>
+    </main>
+
+    <div id="notification" class="notification hidden"></div>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="hideCart()">&times;</span>
+            <h2>Keranjang Belanja</h2>
+            <ul id="cart-items"></ul>
+            <button class="checkout-button" onclick="goToCheckoutPage()">Checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Tentang Kami</h3>
+                <p>
+                    E-Commerce Bulu Tangkis menyediakan perlengkapan olahraga terbaik untuk menunjang performa Anda di lapangan.
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Kategori</h3>
+                <ul>
+                    <li><a href="#" onclick="filterProducts('raket')">Raket</a></li>
+                    <li><a href="#" onclick="filterProducts('shuttlecock')">Shuttlecock</a></li>
+                    <li><a href="#" onclick="filterProducts('sepatu')">Sepatu</a></li>
+                    <li><a href="#" onclick="filterProducts('tas')">Tas</a></li>
+                    <li><a href="#" onclick="filterProducts('aksesoris')">Aksesoris</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Kontak</h3>
+                <p>Email: support@badmintonshop.com</p>
+                <p>Telepon: +62 812 3456 7890</p>
+                <p>Alamat: Jalan Olahraga No. 10, Jakarta</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 E-Commerce Bulu Tangkis | Semua Hak Dilindungi.
+        </div>
+    </footer>
+    
+    <script src="../script.js"></script>
+</body>
+</html>

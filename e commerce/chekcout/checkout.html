@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+    <main>
+        <table id="checkout-table">
+            <thead>
+                <tr>
+                    <th>Nama Produk</th>
+                    <th>Harga Satuan</th>
+                    <th>Jumlah</th>
+                    <th>Subtotal</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data akan diisi oleh JavaScript -->
+            </tbody>
+        </table>
+        <h3>Total: Rp <span id="checkout-total">0</span></h3>
+        <button id="confirm-checkout">Konfirmasi Checkout</button>        
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Tentang Kami</h3>
+                <p>
+                    Kami adalah toko perlengkapan bulu tangkis terpercaya yang menyediakan kebutuhan olahraga Anda, mulai dari raket hingga aksesoris.
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Panduan</h3>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="../dashboard/dashboard.html">Belanja</a></li>
+                    <li><a href="#">Hubungi Kami</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Kontak</h3>
+                <p>Email: support@badmintonshop.com</p>
+                <p>Telepon: +62 812 3456 7890</p>
+                <p>Alamat: Jalan Olahraga No. 10, Jakarta</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 E-Commerce Bulu Tangkis | Semua Hak Dilindungi.
+        </div>
+    </footer>
+    
+    <script src="checkout.js"></script>
+</body>
+</html>
