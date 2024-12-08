@@ -1,3 +1,5 @@
+**Deskripsi Proyek: E-Commerce Olahraga Bulu Tangkis**
+
 Proyek ini adalah aplikasi e-commerce berbasis web yang dirancang untuk menjual perlengkapan bulu tangkis, seperti raket, shuttlecock, sepatu, tas, dan aksesoris. Aplikasi ini memungkinkan pengguna untuk menjelajahi produk, menambahkannya ke keranjang belanja, dan melanjutkan ke proses checkout. 
 
 Berikut adalah fitur utama dan deskripsi teknis proyek ini:
@@ -77,7 +79,7 @@ Berikut adalah fitur utama dan deskripsi teknis proyek ini:
 
 ![image](https://github.com/user-attachments/assets/81043f29-c890-4e64-9d6e-de0f2998a3ce)
 
-![image](https://github.com/user-attachments/assets/e1a240d2-ea0c-40ae-8acc-dcbb6aaa3928)**Deskripsi Proyek: E-Commerce Olahraga Bulu Tangkis**
+![image](https://github.com/user-attachments/assets/e1a240d2-ea0c-40ae-8acc-dcbb6aaa3928)
 
 ---
 
